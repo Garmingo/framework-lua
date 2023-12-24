@@ -17,6 +17,9 @@ and more...
 https://docs.garmingo.com/purchase-and-installation/frameworks
 
 ## Other packages
+
 https://github.com/Garmingo/framework-js-client
+
 https://github.com/Garmingo/framework-js-server
+
 https://github.com/Garmingo/FrameworkLibraryNET
