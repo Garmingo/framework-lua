@@ -1,0 +1,51 @@
+{
+    "_Comments": [
+        "(C) Copyright 2023 Garmingo - All rights reserved",
+        "This is the default configuration file for configuring framework integrations.",
+        "By default, the automatic framework detection is active, which tries to detect the framework based on common interfaces.",
+        "If you have an anti-cheat measure that also prohibits server-side access to these interfaces, you should urgently deactivate this feature.",
+        "You should also note that only one framework may be activated at a time."
+    ],
+
+    
+    "_VersionInfo": [
+        "Version information: This config file is part of FrameworkLibrary 2.0 and might only work with this exact version."
+    ],
+
+    
+    "_AutoDetectInfo": [
+        "When enabled the resource will try to automatically detect frameworks on server-side startup.",
+        "If a framework is successfully detected, this option disables itself and must be manually enabled for re-use."
+    ],
+    "AutoDetect": true,
+
+    
+    "_FrameworkOptions": [
+        "This option specifies which framework to use.",
+        "To select a framework enter its name as defined below (NOT THE NUMBER).",
+        "The following options are included in this version of the Framework Library:",
+        "1. None (Standalone)",
+        "2. ESX Infinity",
+        "3. ESX Legacy",
+        "4. QBCore",
+        "5. Custom"
+    ],
+    "Framework": "None",
+
+    
+    "_ESXEventInfo": [
+        "This option is used to specify a custom ESX shared object event.",
+        "Only for ESX Infinity."
+    ],
+    "ESXEvent": "esx:getSharedObject",
+
+    
+    "_CustomFrameworkInfo": [
+        "Below are the settings for using a custom framework. If you are not using a custom framework you do not have to change anything.",
+        "How to use: Create exports for the given functionality and enter the export name here.",
+        "You will find information on the export parameters and their exact function on our docs page: https://docs.codineerdigital.com/purchase-and-installation/frameworks#setting-up-a-custom-framework",
+        "You can learn more about FiveM exports here: JavaScript: https://docs.fivem.net/docs/scripting-reference/runtimes/javascript/functions/exports/",
+        "Please note that we offer no support for implementing your custom framework!"
+    ],
+    "ExportResource": "CustomFramework"
+}
